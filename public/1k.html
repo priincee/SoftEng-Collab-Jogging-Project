@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href="stylesheets/style.css">
+    <title>Times</title>
+  </head>
+  <body>
+    <header>
+      <!--navigation bar-->
+      <nav>
+        <ul>
+          <li><a href="menu.html">Jog</a></li>
+          <li><a href="friends.html">Friends </a></li>
+          <li><a class = "active" href="times.html">Times</a></li>
+          <li><a href="settings.html">Settings</a></li>
+        </ul>
+      </nav>
+<!--navigation bar for selecting run time you want to view-->
+        <div class = "runs">
+          <li><a class = "activet" href = "1k.html">1k</a></li>
+          <li><a href = "5k.html">5k</a></li>
+          <li><a href = "10k.html">10k</a></li>
+          <li><a href = "20k.html">20k</a></li>
+        </div>
+  </header>
+    <!--Data is presented here-->
+    <script type="module" src = "./javascript/viewrun.js"> </script>
+    <div class = "list">ID Username Time(Minutes)</div>
+  <ul class = "times" id=data>
+
+  </ul>
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+<head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="./javascript/account.js"></script>
+</head>
+<body class="register-box">
+    <form class="register">
+        <h1>Register</h1>
+<!--        all inputs will be used to store the users inputs and the ids will record them-->
+        <input type="text" placeholder="First Name" id="fname">
+        <input type="text" placeholder="Last Name" id="lname">
+        <input type="text" placeholder="Username" id="uname">
+        <input type="email" placeholder="Email" id="email">
+        <input type="password" placeholder="Password" id="pword">
+<!--        the re-type password will be used to check that the same password has been entered-->
+        <input type="password" placeholder="Re-type Password" id="repword">
+<!--        the onclick function will allow call the newAccount function from the account file-->
+        <button type="button" class="btn" onclick=newAccount()>Register</button>
+<!--        hyperlink set up so the user can go back to the login screen-->
+        <p class="message">Registered Already? <a href="index.html">Login here!</a> </p>
+    </form>
+</body>
+</html>

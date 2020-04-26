@@ -1,0 +1,291 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*{
+  margin:0;
+  padding: 0;
+}
+html{
+  font-family: arial;
+  padding:0;
+  margin:0;
+  height:100%;
+}
+
+body{
+  background: linear-gradient(to bottom,rgba(0,0,0,.9), rgba(0,0,0,.85));
+  background-size:cover;
+  padding:0;
+  margin:0;
+  margin-bottom: 10%;
+  /*height:50%;*/
+  background-attachment: fixed;
+  /*width:50%;*/
+}
+/*Login*/
+
+.login-box{
+
+  position: absolute;
+  padding: 1rem;
+  /*transform: translate(-50%,-50%);*/
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+}
+.login{
+  width: 100%;
+  /*overflow: hidden;*/
+  /*font-size: ;*/
+  padding-top: 15%;
+  /*margin: 8px 0;*/
+  border-bottom: 0.5em solid #1abc9c;
+  text-align: center;
+}
+
+.login-box h1{
+  font-size: 8em;
+}
+.login input{
+  font-size: 4em;
+}
+.login button{
+  font-size: 3rem;
+  background-color: #1abc9c;
+}
+.login p {
+  font-size:3rem;
+}
+.register-box{
+  position: absolute;
+  top: 25%;
+  padding: 1.5rem;
+  /*transform: translate(-50%,-50%);*/
+  color: white;
+  text-align: center;
+}
+
+.register-box h1{
+  font-size: 10rem;
+}
+.register {
+  width: 100%;
+  overflow: hidden;
+  /*font-size: 4rem;*/
+  /*padding-top: 15%;*/
+  /*margin: 40% 0;*/
+  border-bottom: 0.5rem solid #1abc9c;
+}
+.register input{
+  font-size: 5em;
+}
+.register button{
+  font-size: 6rem;
+  background-color: #1abc9c;
+}
+.register p {
+  font-size: 4rem;
+}
+.message{
+  font-size: 2rem;
+  /*padding: 2%;*/
+}
+
+
+.textbox i{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 1rem;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+/*styling ul times*/
+.times{
+  display: list-item;
+  color: #eee;
+}
+/*stylist list element of ul times*/
+.times li{
+  list-style: none;
+  height: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  width: 70rem;
+  display:flex;
+  float:left;
+  line-height: 100px;
+  padding: 40px  60px;
+  margin:0 7rem;
+  position: relative;
+  letter-spacing: 1px;
+  text-align: center;
+  border: 4px solid #1abc9c;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  word-spacing: 200px;
+
+
+}
+.times #time{
+  padding-left: 15rem;
+}
+
+.times #share{
+  font-size: 2rem;
+  font-style: italic;
+  color: #1abc9c;
+}
+/*stlying headings in all time viewing related pages*/
+.list{
+  height: 0px;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  word-spacing: 150px;
+  padding: 50px  30px;
+  margin:0 8rem;
+  font-size: 4rem;
+  align-items:center;
+  width: 70rem;
+  color: #eee;
+}
+
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid #1abc9c;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+
+a{
+  text-decoration: none;
+  color:#eee;
+}
+
+/*styling nav bar*/
+nav{
+  width: 100%;
+  height: 150px;
+  padding-top:1rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  text-transform: uppercase;
+  font-size: 4rem;
+
+}
+nav ul{
+  display:flex;
+}
+nav ul li{
+  list-style:none;
+  display:flex;
+  float:left;
+  line-height: 100px;
+
+}
+nav ul li a{
+  padding: 0  40px;
+  margin:0 3rem;
+  position: relative;
+  letter-spacing: 1px;
+  text-align: center;
+
+}
+nav ul li a:last-child{
+  margin-right: 0;
+}
+/*view active tab on main nav*/
+.active {
+  height:10px;
+  background-color: #1abc9c;
+}
+/*view active run tab*/
+.runs .activet  {
+ border: 10px;
+ color: #1abc9c;
+ text-decoration: underline;
+text-decoration-style: double;
+
+}
+
+/*styling footer buttons on jog tab*/
+footer {
+  position:fixed;
+	padding: 0em;
+	left:0px;
+  bottom:0px;
+  height:250px;
+  width:100%;
+	margin: 0em auto;
+	background: #222;
+	text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 4rem
+}
+.runs{
+  width: 100%;
+  height: 0px;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  text-transform: uppercase;
+  font-size: 4rem;
+
+
+}
+.runs li{
+  list-style:none;
+  display:flex;
+  float:left;
+  line-height: 100px;
+
+
+}
+
+.runs li a{
+  padding: 0  65px;
+  margin:0 3rem;
+  position: relative;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.runs li a:last-child{
+  margin-right: 0;
+}
+
+.on{
+  bottom: 0;
+  height:15px;
+  background-color: #1abc9c;
+}
+
+footer ul{
+  display: flex;
+}
+footer ul li{
+  list-style:none;
+}
+footer ul li a{
+  padding: 0  60px;
+  margin:0 35rem;
+  position: relative;
+  letter-spacing: 1px;
+  text-align: center;
+}

@@ -1,0 +1,158 @@
+let users = [{
+    "id": 0,
+    "uname": "ben",
+    "pword": "password",
+    "email": "hbenson0@wikimedia.org",
+    "fname": "Haywood",
+    "lname": "Benson"
+}, {
+    "id": 2,
+    "uname": "sjancey1",
+    "pword": "1kycpbN",
+    "email": "sjancey1@timesonline.co.uk",
+    "fname": "Stephana",
+    "lname": "Jancey"
+}, {
+    "id": 3,
+    "uname": "harry",
+    "pword": "pass",
+    "email": "hmarchi2@google.nl",
+    "fname": "Halley",
+    "lname": "Marchi"
+}, {
+    "id": 4,
+    "uname": "emacconaghy3",
+    "pword": "qZcIPoK",
+    "email": "emacconaghy3@princeton.edu",
+    "fname": "Emera",
+    "lname": "Macconaghy"
+}, {
+    "id": 5,
+    "uname": "ecronin4",
+    "pword": "CHp2I0cdsD0u",
+    "email": "ecronin4@columbia.edu",
+    "fname": "Edythe",
+    "lname": "Cronin"
+}];
+
+jogs = [{
+    "jogid": 1,
+    "uid": 1,
+    "name": "Ben",
+    "time": 58,
+    "distance": "1k"
+}, {
+    "jogid": 2,
+    "uid": 2,
+    "name": "sjancey1",
+    "time": 19,
+    "distance": "10k"
+}, {
+    "jogid": 3,
+    "uid": 3,
+    "name": "harry",
+    "time": 1,
+    "distance": "20k"
+}, {
+    "jogid": 4,
+    "uid": 4,
+    "name": "emacconaghy3",
+    "time": 1,
+    "distance": "10k"
+}, {
+    "jogid": 5,
+    "uid": 5,
+    "name": "ecronin4",
+    "time": 74,
+    "distance": "1k"
+}, {
+    "jogid": 6,
+    "uid": 4,
+    "name": "emacconaghy3",
+    "time": 75,
+    "distance": "5k"
+}, {
+    "jogid": 7,
+    "uid": 3,
+    "name": "harry",
+    "time": 21,
+    "distance": "20k"
+}, {
+    "jogid": 8,
+    "uid": 3,
+    "name": "harry",
+    "time": 85,
+    "distance": "5k"
+}, {
+    "jogid": 9,
+    "uid": 2,
+    "name": "sjancey1",
+    "time": 70,
+    "distance": "10k"
+}, {
+    "jogid": 3,
+    "uid": 5,
+    "name": "ecronin4",
+    "time": 10,
+    "distance": "20k"
+},
+{
+    "jogid": 8,
+    "uid": 3,
+    "name": "harry",
+    "time": 85,
+    "distance": "20k"
+}, {
+    "jogid": 9,
+    "uid": 2,
+    "name": "sjancey1",
+    "time": 70,
+    "distance": "5k"
+}, {
+    "jogid": 3,
+    "uid": 5,
+    "name": "ecronin4",
+    "time": 10,
+    "distance": "1k"
+  }, {
+      "jogid": 2,
+      "uid": 2,
+      "name": "sjancey1",
+      "time": 19,
+      "distance": "10k"
+  }, {
+      "jogid": 3,
+      "uid": 3,
+      "name": "harry",
+      "time": 1,
+      "distance": "1k"
+  }, {
+      "jogid": 4,
+      "uid": 4,
+      "name": "emacconaghy3",
+      "time": 1,
+      "distance": "10k"
+  }, {
+      "jogid": 5,
+      "uid": 5,
+      "name": "ecronin4",
+      "time": 74,
+      "distance": "5k"
+  }, {
+      "jogid": 6,
+      "uid": 4,
+      "name": "emacconaghy3",
+      "time": 75,
+      "distance": "1k"
+  }, {
+      "jogid": 4,
+      "uid": 4,
+      "name": "emacconaghy3",
+      "time": 1,
+      "distance": "20k"
+  }];
+
+module.exports = {
+    users,
+    jogs,
+};

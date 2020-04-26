@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <script src = "./javascript/account.js"></script>
+</head>
+<body class="register-box">
+ <form class="register">
+      <h1>Login</h1>
+<!--the inputs will be be used to record the users name and password using the id function-->
+      <input type="text" placeholder="Username" id="username">
+      <input type="password" placeholder="Password" id="password">
+<!--   onclick used to call the loginaccount function in the account file-->
+      <button type="button" class="btn" onclick= loginAccount()>Login</button>
+<!--   hyperlink set up to allow users to register a account if they do not have one-->
+      <p class="message"> Not Registered ?<a href="./register.html"> Register here!</a> </p>
+    </form>
+  </div>
+

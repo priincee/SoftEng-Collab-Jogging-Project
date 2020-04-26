@@ -1,0 +1,43 @@
+
+create database RunDatabase;
+
+create table Account (
+ 	Account_id INT,
+ 	Acount_fname VARCHAR(50),
+ 	Account_lname VARCHAR(50),
+ 	Account_username VARCHAR(30),
+ 	Account_email VARCHAR(50),
+ 	Account_ password VARCHAR(50)
+ );
+ insert into Account (Account_id, Acount_fname, Account_lname, Account_email,Account_username, Account_ password)
+ values (1, 'Kathie', 'Pates', 'kpates0@storify.com','branner0', '8OqwVs');
+ insert into Account (Account_id, Acount_fname, Account_lname, Account_email, Account_username,Account_ password)
+ values (2, 'Aldon', 'Dickie', 'adickie1@multiply.com', 'bcaldaro1','Bvlsk6i');
+ insert into Account (Account_id, Acount_fname, Account_lname, Account_email, Account_username, Account_ password)
+ values (3, 'Peterus', 'Griffoen', 'pgriffoen2@nationalgeographic.com', 'rsaw2','l2Yh3SQrkeW');
+ insert into Account (Account_id, Acount_fname, Account_lname, Account_email, Account_username, Account_ password)
+ values (4, 'Luigi', 'Cartledge', 'lcartledge3@yandex.ru','lsandeson3', 'Q600Igk9KBmA');
+ insert into Account (Account_id, Acount_fname, Account_lname, Account_email, Account_username,Account_ password)
+ values (5, 'Nester', 'Berns', 'nberns4@nydailynews.com', 'bjurs7','PXGvIbN');
+
+ create table Run_Data (
+ 	Data_id INT,
+ 	User_distance  VARCHAR(3),
+ 	User_time VARCHAR(8),
+ 	User_id VARCHAR(20)
+ );
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (111, '10k', '00:14:43', 3);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (112, '1k', '00:40:20', 2);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (113, '1k', '00:40:20', 5);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (114, '3k', '00:10:45', 1);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (115, '5k', '00:10:45', 2);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (116, '4k', '00:26:30', 4);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (117, '10k', '00:23:59', 5);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (118, '3k', '00:14:43', 3);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (119, '4k', '00:40:20', 4);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (120, '3k', '00:14:43', 3);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (121, '10k', '00:15:23', 2);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (122, '3k', '00:10:45', 2);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (123, '5k', '00:26:30', 3);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (124, '10k', '00:40:20', 4);
+ insert into Run_Data (Data_id, User_distance , User_time, User_id) values (125, '4k', '00:26:30', 4);

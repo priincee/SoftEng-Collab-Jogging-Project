@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Map Test</title>
+    <!-- Import Turf.js to perform geospatial analysis -->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js"></script>
+    <!-- Import jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Import MapBox API and stylesheet -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css" rel="stylesheet" />
+    <!-- Import custom JS scripts -->
+    <script type="module" src="./javascript/index.js"></script>
+    <script type="module" src="./javascript/circlemath.js"></script>
+    <script type="module" src="./javascript/jog.js"></script>
+    <!-- Import CSS -->
+    <link href="stylesheets/map.css" rel="stylesheet" />
+    <link href="stylesheets/loadingwheel.css" rel="stylesheet"/>
+</head>
+<body>
+
+<section id="top_box">
+    <form id="options">
+        <div class="form_section" id="mode_select">
+            <input type="radio" name="circlin" id="circular" value="0" checked="checked">
+            <label for="circular">Circular</label>
+            <input type="radio" name="circlin" id="linear" value="1">
+            <label for="linear">Linear</label>
+        </div>
+        <div class="form_section" id="dist_select">
+            <input type="radio" name="distance" id="km1" value=1 checked="checked">
+            <label for="km1">1km</label>
+            <input type="radio" name="distance" id="km5" value=5 checked="checked">
+            <label for="km5">5km</label>
+            <input type="radio" name="distance" id="km10" value=10>
+            <label for="km10">10km</label>
+            <input type="radio" name="distance" id="km15" value=15>
+            <label for="km15">15km</label>
+        </div>
+        <p id="dest_select">Tap the place you want to jog to.</p>
+    </form>
+    <section id="loading_spot"></section>
+</section>
+
+<div id="map"></div>
+
+<section id="buttonSection">
+    <button type="button" id="startStop">Start</button>
+</section>
+
+</body>
+</html>
+
